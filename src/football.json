@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Ліонель Мессі",
+    "age": 36,
+    "club": "Inter Miami",
+    "position": "RW"
+  },
+  {
+    "id": 2,
+    "name": "Кріштіану Роналду",
+    "age": 39,
+    "club": "Al Nassr",
+    "position": "ST"
+  },
+  {
+    "id": 3,
+    "name": "Кіліан Мбаппе",
+    "age": 25,
+    "club": "Real Madrid",
+    "position": "LW"
+  },
+  {
+    "id": 4,
+    "name": "Ерлінг Голанд",
+    "age": 24,
+    "club": "Manchester City",
+    "position": "ST"
+  },
+  {
+    "id": 5,
+    "name": "Кевін Де Брюйне",
+    "age": 33,
+    "club": "Manchester City",
+    "position": "CM"
+  },
+  {
+    "id": 6,
+    "name": "Неймар",
+    "age": 32,
+    "club": "Al Hilal",
+    "position": "LW"
+  },
+  {
+    "id": 7,
+    "name": "Мохамед Салах",
+    "age": 32,
+    "club": "Liverpool",
+    "position": "RW"
+  },
+  {
+    "id": 8,
+    "name": "Роберт Левандовскі",
+    "age": 36,
+    "club": "Barcelona",
+    "position": "ST"
+  },
+  {
+    "id": 9,
+    "name": "Лука Модрич",
+    "age": 39,
+    "club": "Real Madrid",
+    "position": "CM"
+  },
+  {
+    "id": 10,
+    "name": "Вінісіус Жуніор",
+    "age": 24,
+    "club": "Real Madrid",
+    "position": "LW"
+  }
+]
