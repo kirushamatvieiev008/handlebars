@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Lionel Messi",
+    "team": "Inter Miami",
+    "position": "Forward",
+    "rating": 95,
+    "trophies": ["Ballon d'Or", "Champions League", "World Cup"],
+    "stats": [
+      { "season": "2023", "goals": 32 },
+      { "season": "2024", "goals": 28 }
+    ]
+  },
+  {
+    "name": "Kylian Mbappé",
+    "team": "Real Madrid",
+    "position": "Forward",
+    "rating": 94,
+    "trophies": ["World Cup", "Ligue 1"],
+    "stats": [{ "season": "2023", "goals": 41 }]
+  }
+]

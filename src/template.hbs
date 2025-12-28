@@ -1,8 +1,33 @@
-{{#each football}}
+{{!-- {{#each football}}
   <li>
     <h2>{{name}}</h2>
     <p>{{age}}</p>
     <p>{{club}}</p>
     <p>{{position}}</p>
+    {{#if img}}
+    <img src="{{img}}" alt="{{name}}">
+
+    {{else}}
+    <img src="data:image/png;base64,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" alt="no photo">
+    {{/if}}
+  </li>
+{{/each}} --}}
+
+{{#each newFootball}}
+  <li>
+    <h2>{{name}}</h2>
+    <p>{{age}}</p>
+    <p>{{rating}}</p>
+    <p>{{position}}</p>
+    <ul>
+      {{#each trophies}}
+        <li><p>{{this}}</p></li>
+      {{/each}}
+    </ul>
+    <ul>
+      {{#each stats}}
+        <li>{{season}}::{{goals}}</li>
+      {{/each}}
+    </ul>
   </li>
 {{/each}}
